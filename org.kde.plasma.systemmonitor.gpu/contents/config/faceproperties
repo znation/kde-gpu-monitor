@@ -1,0 +1,9 @@
+[Config]
+chartFace=org.kde.ksysguard.barchart
+highPrioritySensorIds=["gpu/gpu.*/usage"]
+totalSensors=["gpu/all/usage"]
+
+[FaceConfig]
+rangeAuto=false
+rangeFrom=0
+rangeTo=100

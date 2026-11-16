@@ -1,0 +1,27 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Zach"
+            }
+        ],
+        "BugReportUrl": "https://bugs.kde.org/enter_bug.cgi?product=plasmashell&component=System%20Monitor",
+        "Category": "System Information",
+        "Description": "System monitor widget that shows usage of each GPU",
+        "EnabledByDefault": true,
+        "FormFactors": [
+            "desktop"
+        ],
+        "Icon": "ksysguardd",
+        "Id": "org.kde.plasma.systemmonitor.gpu",
+        "License": "GPL-2.0+",
+        "Name": "GPU Usage",
+        "Website": "https://www.kde.org/plasma-desktop"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-Provides": [
+        "org.kde.plasma.systemmonitor"
+    ],
+    "X-Plasma-RootPath": "org.kde.plasma.systemmonitor"
+}
